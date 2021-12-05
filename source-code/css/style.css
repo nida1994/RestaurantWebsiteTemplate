@@ -1,0 +1,375 @@
+* {
+    font-family: "Qintessential";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.52;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 48px;
+}
+
+.collapse {
+    overflow: visible !important;
+}
+
+.restaurant-home-section {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.restaurant-home-section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.restaurant-home-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.restaurant-home-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.btn-primary, .btn-primary.active, .btn-primary.active {
+    background-color: green !important;
+    color: #fff;
+    border-color: green !important;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    opacity: 0.7;
+    background-color: green;
+    color: #fff;
+    border-color: green;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-brand {
+    padding:0;
+}
+
+.navbar-brand img, .footerLogo img {
+    width: 100px;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    margin: 0;
+}
+
+.navbar-list, .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-collapse .navbar-list {
+    text-align: center;
+}
+
+.navbar-collapse .navbar-list li:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.primary-navbar .navbar-custom {
+    overflow: hidden;
+    z-index: 90;
+    position: relative;
+    width: 100%;
+    background-color: rgba(0,0,0,0,.5);
+}
+
+.secondary-navbar .navbar-custom {
+    overflow: hidden;
+    z-index: 90;
+    position: relative;
+    width: 100%;
+    background-color: #000000;
+}
+
+.navbar-custom a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    min-width: 20px;
+    transition: box-shadow 1s ease;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+/*About Section*/
+.about-us-box {
+    background-color: #F5F5F5;
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);;
+    margin-bottom: 50px;
+}
+
+.about-us-content {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-us-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-us-image img {
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);
+}
+
+/*Testimonial Section*/
+.slider-area {
+    background: #000;
+    padding: 50px 0;
+    position: relative;
+    margin: 120px 0;
+}
+
+.slider-area .container h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background: transparent;
+}
+
+.img-container {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 0;
+}
+
+.carousel-caption  h3{
+   font-size: 26px;
+   margin-bottom: 15px;
+   margin-top: 25px;
+}
+
+.carousel-caption  p {
+    font-size: 18px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+/*Menu Section*/
+.menu-container {
+    background-color: #F5F5F5;
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);;
+    margin-bottom: 50px; 
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.menu-header{
+    padding: 20px;
+}
+
+.menu-line {
+    left: 166px;
+    right: 144px;
+}
+
+#menu-filters ul li{
+    display: inline-block;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#menu-filters ul li a {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #565656;
+    border-radius: 0px;
+    border: 1px solid #BBBB;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menu-filters ul li a.active, #menu-filters ul li a:hover {
+    background: green;
+    color: #fff;
+    border: 1px solid green;
+}
+
+.menu-restaurant {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.menu-restaurant .menu-title {
+    float: left;
+}
+
+.menu-restaurant-item {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/*Contact Page*/
+.restaurant-contact-form .container {
+    background-color: #F5F5F5;
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);;
+    margin-bottom: 50px; 
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color:#565656;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    background-color: #F5F5F5;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+    transform: translateY(-15px);
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+.contact-form .label {
+    position: absolute;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #565656;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    background-color: green;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.contact-form .submit-btn:hover{
+    opacity: 0.7;
+    background-color: green;
+    color: #fff;
+    border-color: green;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.restaurant-contact-info {
+ text-align: right;
+}
+
+/*Footer Styles*/
+footer {
+    background: #000;
+    color: #ffff;
+}
+
+.social-media-section-footer {
+    background-color: green;
+}
+
+.social-media-icons {
+    font-size: 40px;
+}
+
+.social-media-icons i {
+    padding: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.copyright-section-footer {
+    margin:20px;
+}
+

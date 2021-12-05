@@ -1,0 +1,76 @@
+@import url('http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css');
+
+* {
+    font-family: "Qintessential";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.52;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 48px;
+    font-weight: normal;
+}
+
+/*Book Reservation*/
+.book-reservation-form .container{
+    background-color: #F5F5F5;
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);;
+    margin-bottom: 50px; 
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.book-reservation-form-fields input {
+    margin: 10px;
+    height: 40px;
+    min-width: 100%;
+}
+
+.book-reservation-datepicker {
+    margin-left: 10px;
+}
+
+.book-reservation-datepicker .add-on, .book-reservation-datepicker input {
+    height: 40px;
+}
+
+.book-reservation-datepicker .add-on .icon-calendar {
+    margin-top: 5px;
+}
+
+.book-reservation-timepicker input {
+    height: 40px;
+    margin-left: 10px;
+    min-width: 100% !important;
+}
+
+.book-reservation-form-submit {
+   text-align: center; 
+}
+
+.book-reservation-form-submit  .submit-btn {
+    display: inline-block;
+    background-color: green;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.book-reservation-form-submit .submit-btn:hover {
+    opacity: 0.7;
+    background-color: green;
+    color: #fff;
+    border-color: green;
+}
+
